@@ -1,0 +1,16 @@
+const colors = {
+  background: "#f8f9ff",
+  onBackground: "#0b1c30",
+  surface: "#f8f9ff",
+  surfaceContainerLowest: "#ffffff",
+  surfaceContainerLow: "#eff4ff",
+  surfaceContainer: "#e5eeff",
+  surfaceContainerHigh: "#dce9ff",
+  surfaceVariant: "#d3e4fe",
+  onSurfaceVariant: "#464555",
+  outlineVariant: "#c7c4d8",
+  primary: "#3525cd",
+  primaryContainer: "#4f46e5",
+  secondary: "#712ae2",
+  onSecondary: "#ffffff",
+};
