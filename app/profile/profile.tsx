@@ -24,50 +24,9 @@ import {
 
 
 
-const NOTES = [
-  {
-    id: "1",
-    code: "CS201",
-    title: "Advanced Algorithms & Complexity",
-    description:
-      "Full semester summary including P vs NP proofs and complexity class analysis...",
-    downloads: 245,
-    likes: 12,
-    uploadedAt: "2 days ago",
-    thumbnail:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBB5vl6HCTNg4FbTJ9N0HVUGHijnjCbwqakF06J7scdXivoX9A1lgGK5UZPwpW5dtpjeKjVAaQ9HJXqnWJMOT3h1aiEEurNnxb65uzjRwEHc0u-NOR-KIoISG7w88qbzz7VJNnXEjMDXh3KpmdH1mbiMpc6i0RujGF5hZQAhIdujwaVYLDq2O7g5WVbeqSTsobwIX14EkjYCBzEi6-EYSMxzSVkDmQB1ebRRn42Je4eC8MoTeUcbVyERfTdvSYRvD66ZiUR6gq-nPk",
-  },
-  {
-    id: "2",
-    code: "PHY104",
-    title: "Introduction to Quantum Logic",
-    description:
-      "Concise formulas and derivations for wave mechanics and Schrödinger equation...",
-    downloads: 89,
-    likes: 5,
-    uploadedAt: "1 week ago",
-    thumbnail:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBk6k3lA2A8RwFtuZLTqN7eqSYNhAqnWrNZ567yhzXlrR2jYvVqUkNznH5J4h8S-bZj8hE4lGHsLzmxgYp8MTRK6t34XrbMZQByBSQDorBRE-FtfSePFWDudvMtGhZcFKuk6kbC2llYLZyYcqUR_4yV_agS99xl5gukW28PR069bcJB2d-PEkAp8NzNLHbm9973Nd8zUzbqh6RYRFdWkRO_cmmpDk1ZSfdLgeuvIkTZkmwqna18e-46Khd-cqP-eO29eHlONtq18ro",
-  },
-];
 
-const NavLink=[
-  {
-    title:"Explore",
-    href:"/dashboard",
-    icon:Compass
-  },
-  {
-    title:"Upload",
-    href:"/uploadnotes",
-    icon:Upload
-  },
-  {
-    title:"Profile",
-    href:"/profile",
-    icon:User
-  }
-]
+
+
 interface Note {
   id: string;
   title: string;
