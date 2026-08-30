@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "institutename" DROP NOT NULL,
+ALTER COLUMN "presentyear" DROP NOT NULL,
+ALTER COLUMN "stream" DROP NOT NULL,
+ALTER COLUMN "semester" DROP NOT NULL;
